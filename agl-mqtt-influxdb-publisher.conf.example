@@ -1,0 +1,59 @@
+#[publisher]
+# Logging verbosity [0-2], true/True = 1
+#verbose = 0
+
+[mqtt]
+# MQTT broker hostname
+#host = "localhost"
+
+# MQTT broker port (defaults to 8883 if TLS is enabled)
+#port = 1883
+
+# MQTT broker username (no default value)
+#username = "username"
+
+# MQTT broker password (no default value)
+#password = "password"
+
+# MQTT connection client ID (no default value)
+#client-id = "client-id"
+
+# MQTT v5 support
+#v5 = false
+
+# MQTT topic (required, no default value)
+topic = "topic"
+
+# TLS support
+#use-tls = false
+
+# TLS CA certificate file (no default value)
+#ca-certificate = "ca.pem"
+
+# TLS server hostname verification
+#verify-server-hostname = true
+
+[influxdb]
+# InfluxDB server hostname
+#host = "localhost"
+
+# InfluxDB server port
+#port = 8086
+
+# InfluxDB organization (no default value)
+org = "org"
+
+# InfluxDB bucket (no default value)
+bucket = "bucket"
+
+# InfluxDB API token (no default value)
+token = "token"
+
+# TLS support
+#use-tls = false
+
+# TLS CA certificate file (no default value)
+#ca-certificate = "ca.pem"
+
+# TLS server hostname verification
+#verify-server-hostname = true
